@@ -47,6 +47,7 @@
         </figure>
 
         <div class="contact-info">
+          <h2>My contacts</h2>
           <address>
             123 Your Street<br />
             Your City, ST 12345
@@ -54,6 +55,31 @@
             <p>no_reply@example.com</p>
           </address>
         </div>
+
+        <form action="" method="post">
+          <fieldset>
+            <legend>Contact me</legend>
+            <label
+              >Your name:
+              <input name="sender-name" type="text" placeholder="John Doe"
+            /></label>
+
+            <label
+              >Your email:
+              <input
+                name="email"
+                type="email"
+                placeholder="example@example.com"
+            /></label>
+
+            <label>
+              Your message:
+              <textarea name="contact-message" id="contact-message"></textarea>
+            </label>
+
+            <button>Contact</button>
+          </fieldset>
+        </form>
       </section>
     </main>
 
